@@ -88,10 +88,10 @@ fi
     else
       echo "$red_f $bold File Missing, you cleared it, or it was on other user session.$norm"
       sleep 2
+      fi
   }
-read -p "$green_f$bold Select Option: [0-3] >> "
-if [[ $REPLY =-  ^[0-3]$ ]];; then
- case $REPLY in
+read -p "$green_f$bold Select Option: [0-3] >> " -n 1 -s pick
+ case $pick in
     1) perm;;
     2) temp;;
     3) recal;;
