@@ -3,6 +3,9 @@
 
 *It's a Tool that make sure that you can Play Audio on Termux, there's an apk already at `libs` directory
 
+## Version Update:
+
+1.1 Brings fix to text interceptor, , now it wont broadcast errors
 
 ## What To do?
 
@@ -13,7 +16,7 @@ chmod +x run.sh && bash run.sh
 
 It needs Root to start (If you're Not Using Bare Termux)
 ```
-sudo main.sh
+sudo bash main.sh
 ```
 
 ## Bugs
